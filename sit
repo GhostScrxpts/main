@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <title>Slope</title>
- <head>
- <body>
-  <button
-onclick="window.local.href='https://ghostscrxpts.github.io/rah</button>
- </body>
+<head>
+	<title>My Website</title>
+</head>
+<body>
+
+	<!-- Create a navigation menu with links to other sites -->
+	<nav>
+		<ul>
+			<li><a href="https://ghostscrxpts.github.io/rah">Slope</a></li>
+			<li><a href="https://www.facebook.com/">Facebook</a></li>
+			<li><a href="https://www.twitter.com/">Twitter</a></li>
+			<li><a href="https://www.instagram.com/">Instagram</a></li>
+		</ul>
+	</nav>
+
+	<!-- Create some buttons that link to other pages within the website -->
+	<button onclick="location.href='about.html'">About</button>
+	<button onclick="location.href='contact.html'">Contact</button>
+
+</body>
 </html>
